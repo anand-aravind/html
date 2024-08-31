@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            @keyframes mybanner {
+                25%{ background-image:url(2.jpeg);}
+                50%{ background-image:url(3.jpeg)}
+                75%{ background-image:url(4.jpeg)}             
+            }
+            #banner{
+                height:300px;
+                padding:100px;
+                font-size:100px;
+                text-align:center;
+                background-image:url(1.jpeg);
+                background-size:100% 100%;
+                color:yellow;
+                animation:mybanner;
+                animation-duration:10s;
+                animation-iteration-count: infinite;
+            }
+
+            body{
+                margin:0px;
+            }
+
+            #topnav{
+                background-image:linear-gradient(to left, darkcyan, red);
+                margin:0px;
+                display:flex;
+                flex-wrap:wrap;
+                top:0px;
+                position:sticky;
+            }
+
+            #topnav li{
+                padding:20px 40px 20px;
+                color:white;
+                font-size:20px;
+                cursor:pointer;
+                list-style-type:none;
+            }
+
+            #topnav li:hover{
+                background-color:yellowgreen;
+            }
+
+            #container{
+                width:80%;
+                margin:auto;
+                display:grid;
+                grid-template-columns: 25% 75%;
+                min-height:450px;
+                cursor:pointer;
+            }
+
+            aside{
+                margin:15px;
+                padding:15px;
+            }
+
+            aside a{
+                display:block;
+                line-height:50px;
+                color:blue;
+                font-size:20px;
+            }
+
+            article{
+                margin:15px;
+                padding:15px;
+            }
+
+            h1{
+                text-align:center;
+                font-size:70px;
+                margin:0px;
+            }
+
+            footer{
+                padding:40px;
+                height:100px;
+                text-align:center;
+                background-color:darkcyan;
+                color:white;
+                font-size:18px;
+                border-bottom:40px solid black;
+                border-top:10px dashed orange;
+            }
+
+            @media screen and (min-width:1px) and (max-width:600px){
+                #banner{
+                    height:150px !important;
+                    padding:50px !important;
+                    font-size:50px !important;
+                }
+
+                #topnav li{
+                    padding: 7px 5px 7px;
+                    font-size:14px;
+                }
+            }
+        </style>
+
+    </head>
+    <body>
+        <ul id="topnav">
+            <li> Home </li>
+            <li> Product </li>
+            <li> Services </li>
+            <li> Customer </li>
+            <li> Login </li>
+            <li> Register </li>
+        </ul>
+        <section id="banner">
+            CSS Animated Image Banner
+        </section>
+        <section id="container">
+            <aside>
+                <a> Website Development </a>
+                <a> Mobile App Devolopment </a>
+                <a> Content writing </a>
+                <a> Logo Design </a>
+                <a> Portal Development </a>
+            </aside>
+            <article>
+                <h1> About Us </h1>
+                <p>
+                   dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                   dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf 
+                   dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                   dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                   dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                   dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                   dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                   dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                </p>
+                <p>
+                    dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                    dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf 
+                    dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                    dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                    dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                    dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                    dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                    dfg dfg dfg dfg dfg df gdf gdfg dfg df gdf gdfg df gdfgdf gdf gdfg df gdf
+                 </p>
+            </article>    
+        </section>  
+        <footer>
+            <p> Help Center - +91 982734979 </p>
+        </footer>
+    </body>
+</html>
