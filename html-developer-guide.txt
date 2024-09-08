@@ -1,0 +1,116 @@
+
+=>valid extension of html document
+-----------------------------
+<!DOCTYPE html>
+    ->it representthat current document is html document.
+    ->it also inform to browser that html5 tags are being used. be ready to execute.
+
+=>structure of html document?
+    html start to end called document.
+    ->head 
+        =>digital marketing & Analytics
+        =>Library section (CSS, Javascript,Other Lib...)
+    ->body
+
+        =>all the input and output activity...
+        Note - use the suitabe tags based on contents.
+        
+-----------------------------------------------------------
+h1 to h6 - heading tag.
+    use h1 min and max 1 time in each page.
+    h2 to h6 is optional.
+-----------------------------------------------------------
+p - it use to display bulk text data in webpage.
+
+---------use if text is upto 130 char----------------------
+label -
+b / strong
+i / em
+
+-----------------------------------------------------------
+
+    Table in html
+    Structure / Syntax
+    1. Table
+
+    =>table 
+        =>caption
+        =>tr(table row)
+            =>th(table heading)
+            =>td(table data)
+
+
+
+    2. table
+        =>table
+            =>thread - it cover upper section of Table
+                ->tr
+                    ->th
+
+            =>body- it cover middle part of table
+                ->tr
+                    ->td
+
+            =>foot - it vover bottom part of Table
+                ->tr
+                    -> th
+
+=>Property in table , tr, th, td
+    1. align - left, right, center(default is left)
+    2. valign - top, middle, bottom(default is miiddle)
+    3. border - 
+    4. bordercolor -
+    5. cellpadding - it apply space inside th, td
+    6. cellspacing - it apply space outside of th, td
+-> table.html
+    7. cospan - it use to combine space of 2 or more th, td
+    8. rowspan - it use to combine space of 2 or more tr
+-> table2.html
+->table3.html
+->table4.html
+================================================================
+How to Link the Pages?
+    <a href="next-file-name"> Text To Click </a>
+===================================================================
+Input Elements in html
+    ->text
+    ->number
+    ->email
+    ->password
+    ->textarea - for multiline input
+    ->file - to upload any type of file
+    ->date - for date picker
+    ->checkbox
+    ->radio
+    ->select - to choose option
+    ->button
+        ->submit - it submit the form data to action page.
+        ->reset - it clear all fields of current form
+        ->button - need Javascript to make it functional
+        
+----property and values in input Elements-----
+    => placeholder - it is for input guidance.
+    => maxlength - it use to set limit in input.
+    => size - it resize width of (text, email, password )
+    => id - it use to communicate with css and javascript
+    => class - it use to communicate with css and javascript
+    => name - it use to create a container in input element that hold values given by user.
+    => required - it make input element as required to fill.
+    => tabindex : it use to set sequence of curser / ppointer
+    => value : it use to display default value in input element
+    => readonly : reaonly will make input element readonly, can not edit but value can pass to backup
+    => disabled : will lock the element, can not edit also can not pass value to back end
+form
+    ->it is parent element of all the input tags.
+    action - it use to set path for backend url where form data should get submitted.
+    method - it define the type of communication between client to server. it has following type
+        get - it send and receive data from client to server but data will be fully visible. it is unsecure.
+        post - it send and receive data from client to server but data will be fully hidden. it is secure.
+        put - 
+        patch
+        delete
+        option
+---------------------------------------------------------
+Audio Player
+Video Player
+Youtube video using iframe
